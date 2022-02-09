@@ -1,1 +1,1 @@
-
+Equality between two dataframes: df1.equals(df2)
