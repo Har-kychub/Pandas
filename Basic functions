@@ -1,1 +1,8 @@
 Equality between two dataframes: df1.equals(df2)
+json to data frame : 
+from pandas import json_normalize 
+arr=[]
+for i in df:
+    for j in i:
+        arr.append(j)  
+df=json_normalize(arr)
