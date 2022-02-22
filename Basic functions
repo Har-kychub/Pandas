@@ -1,4 +1,9 @@
 Equality between two dataframes: df1.equals(df2)
+
+with open('5k.json',encoding="utf-8") as j:
+     contents = json.loads(j.read())
+
+
 json to data frame : 
 from pandas import json_normalize 
 arr=[]
