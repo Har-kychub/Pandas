@@ -1,3 +1,11 @@
+details to dataframe
+pd.DataFrame(np.concatenate(df_details['details']).tolist())
+
+
+
+
+
+
 Equality between two dataframes: df1.equals(df2)
 
 with open('5k.json',encoding="utf-8") as j:
